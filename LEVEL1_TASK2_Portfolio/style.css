@@ -1,0 +1,381 @@
+*{
+    margin:0px ;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(196, 235, 239);
+}
+
+body{
+    margin:0px 80px;
+}
+
+nav{
+    height:100px;
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+}
+
+nav ul{
+    display:flex;
+align-items: center;
+list-style: none;
+gap:60px;
+font-size: 20px;
+
+}
+
+nav h2{
+    font-family: 'Lumanosimo', cursive;
+    
+}
+
+/* Main starts from here-- */
+
+main{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    
+   
+}
+
+.left_side_button{
+    margin-top: 30px;
+}
+
+.left_side h3{
+margin-bottom:10px;
+font-size:34px;
+}
+
+.left_side h1{
+    font-size: 30px;
+}
+
+.left_side p{
+font-size:16px;
+margin-top: 10px;
+width:600px
+}
+
+.left_side h1 span{
+    color: darkblue;
+    font-size: 55px;
+}
+
+.right_side img{
+    width:350px;
+    border-radius: 50%;
+    
+}
+
+.left_side_button{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.left_side_button button{
+    padding:10px 17px;
+    border-radius: 10px;
+    border:2px solid darkblue;
+font-size: 20px;
+
+}
+
+.left_side_button button i{
+    background-color: transparent;
+}
+
+button i{
+    padding-left:5px
+}
+
+button:first-child{
+    color: white;
+    background-color: darkblue;
+
+}
+/* About section starts from here */
+
+.about_me{
+   margin-top: 80px;
+   margin-bottom: 40px;
+}
+
+.about_me h1{
+    font-family: 'Lumanosimo', cursive;
+    font-size: 35px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.about_me img{
+    width:460px;
+    
+}
+
+.about_me_rightSection{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+.right_section_para{
+    width:600px;
+    font-size: 23px;
+    line-height:24px;
+    letter-spacing:1px
+}
+
+/* Skills section starts from here-- */
+
+.myskills {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.myskills h1 {
+    font-family: 'Lumanosimo', cursive;
+    font-size: 35px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.myskills_container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap:45px;
+}
+
+.myskills_container_card img{
+    width:60px;
+    height:60px;
+}
+
+.myskills_container_card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+        justify-content: center;
+        padding:20px;
+        border-radius: 10px;
+        border:1.5px solid darkblue;
+}
+
+.myskills_container_card:hover{
+    border:none;
+    box-shadow:0 0 10px darkblue ;
+}
+
+ /* Projects section stars from here-- */
+
+ .my_projects{
+     margin-top: 80px;
+     margin-bottom: 40px;
+ }
+
+ .my_projects h1 {
+     font-family: 'Lumanosimo', cursive;
+     font-size: 35px;
+     margin-bottom: 80px;
+     text-align: center;
+ }
+
+.my_projects_container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:40px;
+    flex-wrap: wrap;
+}
+
+ .my_projects_container_card img{
+width: 350px;
+ }
+
+ .my_projects_container_card {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding:10px 20px;
+     border-radius: 10px;
+     border: 1.5px solid darkblue;
+    width: 400px;
+    gap:15px;
+    align-self: stretch;
+ }
+
+ .my_projects_container_card:hover {
+     border: none;
+     box-shadow: 0 0 10px darkblue;
+ }
+
+ .my_projects_heading_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  width:100%;
+ }
+
+ .my_projects_heading_section i{
+    font-size:28px
+ }
+
+ .my_projects_bottom{
+    
+    font-weight: bold;
+    font-size:20px;
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+ }
+
+ /* Certificates section stars from here */
+
+ .my_Certificates {
+     margin-top: 80px;
+     margin-bottom: 40px;
+ }
+
+ .my_Certificates h1 {
+     font-family: 'Lumanosimo', cursive;
+     font-size: 35px;
+     margin-bottom: 80px;
+     text-align: center;
+ }
+
+ .certificates_container{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 40px;
+     flex-wrap: wrap;
+ }
+
+ .certificates_container_card img {
+     width: 350px;
+ }
+
+ .certificates_container_card{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 10px 20px;
+     border-radius: 10px;
+     border: 1.5px solid darkblue;
+     width: 400px;
+     gap: 15px;
+     align-self: stretch;
+ }
+
+ .certificates_container_card:hover {
+     border: none;
+     box-shadow: 0 0 10px darkblue;
+ }
+
+  /* Contact section starts from here-- */
+
+.contact_me{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.contact_me h3{
+    font-family: 'Lumanosimo', cursive;
+    font-size: 35px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+ .contact_me_container{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+ }
+
+ .contact_me_container img{
+    width:500px;
+
+ }
+
+ .contact_me_container form{
+    border:1.5px solid darkblue;
+    border-radius: 8px;
+    padding:30px 40px;
+    width:400px;
+    background-color: darkblue;
+    color: white;
+ }
+
+ .contact_me_container form label,input,textarea{
+    
+    margin-bottom: 8px;
+
+ }
+
+ .contact_me_container form textarea{
+    border:1.5px solid darkblue;
+    height:80px;
+    padding: 8px 5px
+ }
+
+ .contact_me_container form label{
+    margin-right: 5px;
+    background-color: transparent;
+ }
+
+ .contact_me_container form input{
+    margin:8px 5px;
+    border: 1.5px solid white;
+    padding:5px 10px
+ }
+
+ .label{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .contact_me_container form button{
+    margin-top:18px;
+    border: 1.5px solid darkblue;
+    border-radius: 5px;
+    padding:5px 20px;
+    font-weight: 500;
+    width:100%;
+    font-size: 19px;
+ }
+
+ .contact_me_container form div{
+    background-color: transparent;
+ }
+
+ /* footer section starts from here- */
+
+ footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+
+ }
+
+ .footer_last_section a i{
+font-size: 30px;
+ }
+
+ .footer_last_section{
+    display: flex;
+
+gap:20px;
+ }
